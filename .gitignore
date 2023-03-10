@@ -1,0 +1,10 @@
+/node_modules
+/public/storage
+/vendor
+Homestead.yaml
+Homestead.json
+.env
+.idea
+composer.lock
+*.mwb.bak
+psysh_history
