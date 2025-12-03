@@ -35,6 +35,6 @@ const balancer = http.createServer((req, res) => {
     req.pipe(proxy);
 });
 
-balanceador.listen(3000, () => {
+balancer.listen(3000, () => {
     console.log("Balanceador rodando em http://localhost:3000");
 });
