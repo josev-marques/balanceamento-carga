@@ -72,17 +72,9 @@ Para testar um balanceador real, implemente um proxy (Nginx, HAProxy) ou um scri
 
 Exemplo mínimo (ideia): um proxy HTTP que receba em `:3000` e reencaminhe em round-robin para as portas `3001`, `3002`, `3003`.
 
-**Sugestões / Próximos passos**
+**Próximos passos**
 
 - Implementar um pequeno balanceador em Node.js (round-robin, least-connections).
 - Testar comportamento com instâncias que respondem lentamente para observar timeouts.
 - Adicionar scripts npm para facilitar execução (`npm start:all`, etc.).
 - Criar um Dockerfile para cada servidor e um `docker-compose` com balanceador para demonstração portátil.
-
-**Contribuição**
-
-Pull requests são bem-vindos. Para mudanças grandes, abra uma issue primeiro para discutir o design.
-
-**Licença**
-
-Sinta-se à vontade para usar este código para fins educacionais. Adicione uma licença se quiser compatibilizar com requisitos formais.
